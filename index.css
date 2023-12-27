@@ -1,0 +1,536 @@
+@font-face {
+    font-family: MontserattReg;
+    src: url(fontz/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: MontserratXBld;
+    src: url(fontz/Agraham.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BG IMAGE */
+
+.BGh {
+    background-image: url(img/2\ 4\ 2\ BG.png);
+    background-repeat: no-repeat;
+    position: static;
+    background-size: cover;
+    height: 200vh;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+/* NAVIGATION SECTION */
+
+header {
+    padding-bottom: 250vh;
+    background-color: transparent;
+    position: static;
+    padding: 80px 40px;
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    top: 0;
+}
+
+/* NAVIGATION IN-LINE SETTING UP */
+
+nav {
+    padding: 0px 20px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* TEXT FORMATTING */
+
+.logo {
+    font-family: MontserratXBld;
+    padding-left: 10px;
+    color: rgb(166, 149, 127);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.divid {
+    color: rgb(255, 255, 255);
+}
+
+ul li a {
+    font-family: MontserattReg;
+    padding: 100% 20px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* NAVIGATION BAR HOVER FUNCTIONS */
+ul li a:hover {
+    position: static;
+    outline: 2px solid rgb(166, 149, 127);
+    background-size: 100vh;
+    padding: 5px 20px;
+    border-radius: 100px;
+}
+
+ul li a#home:not(:hover) {
+    position: static;
+    color: black;
+    background-color: rgb(166, 149, 127);
+    background-size: 100vh;
+    padding: 5px 20px;
+    border-radius: 100px;
+}
+
+/* BODY CONTENT */
+
+body div.homecon {
+    text-align: center;
+    align-items: end;
+    position: static;
+    top: 0;
+    padding-top: 10vh;
+}
+
+p#con1 {
+    position: static;
+    font-family: MontserattReg;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+p#con2 {
+    position: static;
+    font-family: MontserratXBld;
+    /* color:  rgb(159, 136, 107); */
+    color:  rgb(255, 250, 220);
+    text-align: center;
+    margin-top: -80px;
+    font-size: 15vh;
+}
+
+/* FOOTER CONTENT */
+
+body div footer {
+    font-family: MontserattReg;
+    color: white;
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+    align-items: end;
+    position: static;
+    padding: 100px 50px;
+    top: 3000px;
+}
+
+
+.social-icons2 {
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+  }
+
+
+/* Home content 2 */
+
+.homecon2-container {
+    height: 100vh;
+    background-color: rgb(166, 149, 127);
+    position: static;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1.5fr 2fr;
+    grid-auto-rows: minmax(150px, auto);
+    padding: 40px 80px;
+    align-items: center;
+}
+
+.outl {
+    border-radius: 100%;
+    outline: 2px solid  rgb(0, 0, 0);;
+    height: 350px;
+    width: 350px;
+}
+
+.mephoto {
+    /* outline: 2px solid rgb(62, 60, 55); */
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(img/Robben.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px 0px;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+
+.homecon2-container-item1 {
+    font-family: MontserattReg;
+    display: grid;
+}
+
+.homecon2-container h1 {
+    padding: 0px 0px 5px 0px;
+    font-weight: 400px;
+}
+
+.homecon2-container h2 {
+    padding: 0px 0px 15px 0px;
+}
+
+.homecon2-container p {
+    text-indent: 3rem;
+}
+
+
+.divider {
+    border-color: #212121; 
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-width: 2px; 
+}
+
+
+/* ICONS SECTION */
+.social-icons {
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  ul.social-icons {
+    padding-top: 15px;
+    row-gap: 0px;
+  }
+
+  .social-icons #fb1, #insta1, #thr1 {
+    padding-right: -1000px;
+  }
+
+  .fa-brands {
+    font-size: 30px;
+    
+  }
+
+  .hp {
+    color: black;
+    text-decoration: none;
+  }
+
+  #fb1 {
+    color: rgb(61, 52, 36);
+  }
+
+  #inst1 {
+    color: rgb(61, 52, 36);
+  }
+
+  #thr1 {
+    color: rgb(61, 52, 36);
+  }
+
+  #fb2 {
+    color: rgb(255, 240, 219);
+  }
+
+  #inst2 {
+    color: rgb(255, 240, 219);
+  }
+
+  #thr2 {
+    color:rgb(255, 240, 219);
+  }
+
+  ul.social-icons2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+
+  .fa-brands #Iconsfooter {
+    color: aliceblue;
+  }
+
+
+
+/* HOME CONTENT N0.3 */
+
+
+.homecon3-container {
+    position: static;
+    background-color: rgb(166, 149, 127);
+    padding: 100px 50px;
+    height: 120vh;
+    top: 4000px;
+}
+
+div > article{
+    text-align: center;
+    justify-content: center;
+}
+div > article > h2{
+    text-align: center;
+    font-family: MontserratXBld;
+}
+div > article > h3{
+    text-align: center;
+    font-family: MontserattReg;
+}
+
+video {
+    padding-bottom: 0px;
+    width: auto;
+    margin: 0;
+    padding: 0%;
+    height: 50%;
+    width: 50%;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .homecon2-container {
+        text-align: center;
+        justify-content: center;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr;
+        height: 150vh;
+    }
+
+    .mephoto {
+        align-self: center;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .homecon2-container-item1 {
+        flex-shrink: 1rem;
+        font-size: 12px;
+        padding-top: 0px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .logo {
+        margin-top: 3px;
+        padding-left: 5px;
+        font-size: 20px;
+    }
+    
+    ul {
+        margin-top: 150px;
+        align-items: center;
+        flex-direction: column;
+        list-style-type: none;
+        display: flex;
+        row-gap: 20px;
+    }
+    
+    .divid {
+        color: rgb(255, 255, 255);
+    }
+    
+    ul li a {
+        font-family: MontserattReg;
+        padding: 100% 20px;
+        font-size: 12px;
+        color: rgb (255, 255, 255);
+        text-decoration: none;
+    }
+    
+    .divid {
+        visibility: hidden;
+    }
+
+    body div.homecon {
+        text-align: center;
+        align-items: end;
+        position: static;
+        top: 0;
+        padding-top: 8vh;
+    }
+    
+    p#con1 {
+        position: static;
+        font-family: MontserattReg;
+        color: white;
+        text-align: center;
+        margin-top: 100px;
+        font-size: 20px;
+    }
+    
+    p#con2 {
+        position: static;
+        font-family: MontserratXBld;
+        color:  rgb(159, 136, 107);
+        text-align: center;
+        margin-top: -50px;
+        font-size: 10vh;
+    }
+
+    .social-icons2 {
+        flex-direction: row;
+        padding-top: 1rem;
+      }
+
+      ul.social-icons {
+        margin-top: 10px;
+      }
+
+      ul.social-icons2 {
+        margin-top: .5px;
+      }
+
+      body div footer {
+        padding: 50px 20px;
+    }
+
+    .homecon2-container p {
+        text-indent: 0rem;
+    }
+
+    .homecon3-container {
+        height: 80vh;
+    }
+
+    .homecon3-container h1 {
+        font-size: 10px;
+    }
+
+    video {
+        width: auto;
+        height: 40vh;
+    }
+
+    article > h2 {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .homecon2-container {
+        text-align: center;
+        justify-content: center;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr;
+        height: 130vh;
+    }
+    p#con1 {
+        position: static;
+        font-family: MontserattReg;
+        color: white;
+        text-align: center;
+        margin-top: 100px;
+        font-size: 15px;
+    }
+    
+    p#con2 {
+        position: static;
+        font-family: MontserratXBld;
+        color:  rgb(159, 136, 107);
+        text-align: center;
+        margin-top: -20px;
+        font-size: 5vh;
+    }
+
+    article > h2 {
+        font-size: 15px;
+    }
+
+    video {
+        width: 40vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    p#con1 {
+        position: static;
+        font-family: MontserattReg;
+        color: white;
+        text-align: center;
+        margin-top: 125px;
+        font-size: 20px;
+    }
+    
+    p#con2 {
+        position: static;
+        font-family: MontserratXBld;
+        color:  rgb(159, 136, 107);
+        text-align: center;
+        margin-top: -40px;
+        font-size: 10vh;
+    }
+
+    .divider-1 {
+        justify-self: center;
+        width: 80%;
+    }
+
+    .homecon2-container h1 {
+        font-size: 15px;
+    }
+
+    .homecon2-container h2 {
+        font-size: 13px;
+        
+    }
+
+    .homecon2-container p {
+        justify-self: center;
+
+        flex-wrap: wrap;
+        width: 80%;
+        font-size: 10px;
+    }
+    .homecon2-container {
+        align-self: center;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        height: 120vh;
+    }
+
+    .outl {
+        height: 250px;
+        width: 250px;
+    }
+    
+    .mephoto {
+        height: 300px;
+        width: 300px;
+    }
+
+    .homecon3-container {
+        height: 100vh;
+    }
+}
